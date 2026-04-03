@@ -55,11 +55,13 @@ Live Demo: https://ondrej108.github.io/social-proof-section/
 
 ## Project Structure
 
+```
 social-proof-section/
 ├── index.html
 ├── styles.css
 ├── query.css
 └── images/
+```
 
 ---
 
