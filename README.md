@@ -91,4 +91,5 @@ This project is based on a design provided by Frontend Mentor, used to practice 
 ## Author
 
 
-Ondrej Medas | Junior Frontend Developer
+Ondrej Medas
+Junior Frontend Developer (HTML, CSS, JavaScript)
