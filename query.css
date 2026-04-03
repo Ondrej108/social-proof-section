@@ -1,0 +1,82 @@
+@media (min-width: 48rem) {
+  .social-proof-section {
+    width: min(80%, 70rem);
+    gap: 3rem;
+  }
+
+  .top {
+    gap: 2.5rem;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    max-width: 30rem;
+    line-height: 0.85;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .stars {
+    padding: 0;
+  }
+
+  .testimonials {
+    padding: 0;
+  }
+}
+
+@media (min-width: 64rem) {
+  .top {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .intro {
+    text-align: left;
+    flex: 1;
+    max-width: 24rem;
+  }
+
+  .ratings {
+    flex: 1.8;
+    align-items: flex-end;
+  }
+
+  .rating {
+    width: fit-content;
+    min-width: 26rem;
+  }
+
+  .rating:nth-child(1) {
+    margin-right: 4rem;
+  }
+
+  .rating:nth-child(2) {
+    margin-right: 2rem;
+  }
+
+  .rating:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .testimonials {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .card:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  .card:nth-child(3) {
+    margin-top: 2rem;
+  }
+}
